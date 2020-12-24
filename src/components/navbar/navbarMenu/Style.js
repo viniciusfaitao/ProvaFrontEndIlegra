@@ -13,5 +13,5 @@ export const IconPlaceholder = styled.div`
 export const TextPlaceholder = styled.div`
   border-radius: 5px;
   flex: 1;
-  color: white;
+  color: black;
 `;

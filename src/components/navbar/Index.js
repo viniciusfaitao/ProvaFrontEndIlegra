@@ -29,20 +29,14 @@ export const Navbar = () => {
 
   return (
     <NavbarBackground>
-      <motion.div
-        initial={{ y: -500 }}
-        animate={{ y: 0 }}
-        transition={{ duration: 4 }}
-      >
-        <motion.nav initial={false} animate={isOpen ? "open" : "closed"}>
-          <motion.div className="background" variants={sideBar} />
-          <NavbarMenu />
-          <NavbarToggle toggle={() => toggleOpen()} />
-        </motion.nav>
-      </motion.div>
+      <motion.nav initial={false} animate={isOpen ? "open" : "closed"}>
+        <motion.div className="background" variants={sideBar} />
+        <NavbarMenu />
+        <NavbarToggle toggle={() => toggleOpen()} />
+      </motion.nav>
 
       <motion.div
-        initial={{ y: -500 }}
+        initial={{ y: -550 }}
         animate={{ y: 0 }}
         transition={{ duration: 4 }}
       >
@@ -52,9 +46,22 @@ export const Navbar = () => {
         </NavbarTitle>
       </motion.div>
 
-      <NavbarWelcome>
-        <h1>Welcome to the dark side</h1>
-      </NavbarWelcome>
+      <motion.div
+        animate={{
+          scale: [0.9, 0.99, 0.99, 0.9, 0.9],
+        }}
+        transition={{
+          duration: 2,
+          ease: "easeInOut",
+          times: [0, 0.2, 0.5, 0.8, 1],
+          loop: Infinity,
+          repeatDelay: 1,
+        }}
+      >
+        <NavbarWelcome>
+          <h1>Welcome to the dark side</h1>
+        </NavbarWelcome>
+      </motion.div>
     </NavbarBackground>
   );
 };

@@ -1,7 +1,29 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Navbar } from "../../components/navbar/Index";
+import { HomeBackground, HomeList } from "./Style";
+import { NavbarMenu } from "../../components/navbar/navbarMenu/Index";
 
 export const Home = () => {
-  return <div></div>;
+  return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 2 }}
+    >
+      <HomeBackground>
+        <HomeList>
+          <motion.div
+            transition={{
+              duration: 4,
+              type: "spring",
+              stiffness: 50,
+              restDelta: 2,
+            }}
+          >
+            <NavbarMenu />
+          </motion.div>
+        </HomeList>
+      </HomeBackground>
+    </motion.div>
+  );
 };

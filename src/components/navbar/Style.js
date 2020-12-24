@@ -6,6 +6,7 @@ export const NavbarBackground = styled.nav`
   justify-content: start;
   align-items: center;
   place-content: space-between;
+  margin-bottom: 100px;
 
   span {
     margin-left: 16px;
@@ -63,7 +64,7 @@ export const NavbarBackground = styled.nav`
     font-size: 25px;
 
     &:hover {
-      box-shadow: 0px 1px 10px black;
+      box-shadow: 0 0 30px black;
       border-radius: 10px;
     }
 
