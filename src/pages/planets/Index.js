@@ -1,21 +1,47 @@
 import React from "react";
-import { UsePlanets } from "../../services/planetsApi/Api";
+import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import {
+  PlanetBackground,
+  PlanetList,
+  PlanetListButton,
+  PlanetListImage,
+  PlanetListTitle,
+} from "./Style";
+import { UsePlanets } from "../../services/planetsApi/Api";
+import { PlanetImagesData } from "../../components/imagesData/planetImages/Index";
 
 export const Planets = () => {
   const planets = UsePlanets();
 
   return (
-    <div>
-      <h1>Planetas</h1>
+    <PlanetBackground>
       {planets.map((planet) => (
-        <div key={planet.url}>
-          <h2>{planet.name}</h2>
-          <Link to={`/planet/${planet.name}`}>
-            <button>Description</button>
-          </Link>
-        </div>
+        <PlanetList key={planet.name}>
+          {PlanetImagesData.map((planetImage) =>
+            planetImage.name === planet.name ? (
+              <PlanetListImage src={planetImage.image} />
+            ) : null
+          )}
+          <PlanetListTitle>{planet.name}</PlanetListTitle>
+          <motion.div
+            animate={{
+              scale: [0.9, 0.99, 0.99, 0.9, 0.9],
+            }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+              times: [0, 0.2, 0.5, 0.8, 1],
+              loop: Infinity,
+              repeatDelay: 1,
+            }}
+          >
+            <Link to={`/planet/${planet.name}`}>
+              <PlanetListButton>Details</PlanetListButton>
+            </Link>
+          </motion.div>
+        </PlanetList>
       ))}
-    </div>
+    </PlanetBackground>
   );
 };

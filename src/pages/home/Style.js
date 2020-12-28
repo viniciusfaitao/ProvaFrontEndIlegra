@@ -3,48 +3,36 @@ import styled from "styled-components";
 export const HomeBackground = styled.div`
   display: flex;
   justify-content: center;
-  margin: 50px;
+  margin: 0px 50px;
 `;
 
 export const HomeList = styled.div`
-  width: 100%;
-  margin-top: 100px;
+  margin-top: 20px;
+  margin-bottom: 38px;
   padding: 50px;
-  box-shadow: 0 0 30px #ffde06;
+  border-radius: 10px;
+  box-shadow: 0 0 25px #ff0000;
   background: #000000d1;
   list-style: none;
 
-  button {
-    width: 80px;
-    height: 80px;
-    outline: none;
-    border: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    cursor: pointer;
-    border-radius: 50%;
-    background: transparent;
-  }
-
   ul {
+    padding: 0;
     display: flex;
     justify-content: center;
     text-align: center;
     flex-flow: wrap;
-    padding: 0;
   }
 
   li {
-    list-style: none;
-    cursor: pointer;
-    font-size: 25px;
     margin: 10px;
     padding: 25px;
+    font-size: 25px;
+    list-style: none;
+    cursor: pointer;
 
     &:hover {
-      box-shadow: 0 0 30px #ffde06;
-      border-radius: 10px;
+      border-radius: 45px;
+      border-bottom: 3px solid #ff0000;
     }
 
     a {

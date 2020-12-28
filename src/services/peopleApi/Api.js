@@ -1,27 +1,27 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-export const UsePeoples = () => {
+export const UsePeople = () => {
   const url = "https://swapi.dev/api";
 
-  const [peoples, setPeoples] = useState([]);
+  const [people, setPeople] = useState([]);
 
   useEffect(() => {
-    if (!peoples.length) {
-      getPeoples();
+    if (!people.length) {
+      getPeople();
     }
   });
 
-  const getPeoples = () => {
+  const getPeople = () => {
     axios
       .get(`${url}/people/`)
       .then((response) => {
-        setPeoples(response.data.results);
+        setPeople(response.data.results);
       })
       .catch((error) => {
         console.error("Error cause: " + error.message);
       });
   };
 
-  return peoples;
+  return people;
 };

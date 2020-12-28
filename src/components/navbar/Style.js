@@ -2,21 +2,20 @@ import styled from "styled-components";
 
 export const NavbarBackground = styled.nav`
   height: 80px;
+  margin-bottom: 50px;
   display: flex;
-  justify-content: start;
   align-items: center;
   place-content: space-between;
-  margin-bottom: 100px;
 
   span {
     margin-left: 16px;
   }
 
   .background {
+    width: 300px;
     position: absolute;
     top: 0px;
     bottom: 0;
-    width: 300px;
     z-index: 1;
     background: #ffde06;
   }
@@ -64,7 +63,7 @@ export const NavbarBackground = styled.nav`
     font-size: 25px;
 
     &:hover {
-      box-shadow: 0 0 30px black;
+      box-shadow: 0 0 30px #000;
       border-radius: 10px;
     }
 
@@ -76,41 +75,4 @@ export const NavbarBackground = styled.nav`
       text-decoration: none;
     }
   }
-`;
-
-export const NavbarTitle = styled.div`
-  width: 260px;
-  margin-top: 45px;
-  font-size: 50px;
-  font-family: Starjhol;
-  text-align: center;
-  color: #ffde06;
-  font-weight: bold;
-  background-color: #000000d1;
-  box-shadow: 0 0 30px #ffde06;
-  border-bottom: 3px solid #ffde06;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-radius: 45px;
-
-  h1 {
-    margin: 0;
-    z-index: 1;
-  }
-
-  .star {
-    margin-top: 35px;
-  }
-
-  .wars {
-    margin-top: -60px;
-  }
-`;
-
-export const NavbarWelcome = styled.div`
-  width: 150px;
-  height: 100px;
-  color: #ffde06;
-  font-size: 15px;
-  font-family: Starjhol;
 `;

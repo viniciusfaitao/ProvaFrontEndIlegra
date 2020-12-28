@@ -1,9 +1,7 @@
 import styled from "styled-components";
 
 export const IconPlaceholder = styled.div`
-  flex: 40px 0;
-  margin: 20px;
-  color: black;
+  margin: 8px 20px;
 
   img {
     width: 40px;
@@ -13,5 +11,5 @@ export const IconPlaceholder = styled.div`
 export const TextPlaceholder = styled.div`
   border-radius: 5px;
   flex: 1;
-  color: black;
+  color: #000;
 `;

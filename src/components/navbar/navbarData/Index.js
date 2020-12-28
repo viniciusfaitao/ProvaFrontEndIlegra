@@ -16,8 +16,8 @@ export const SidebarData = [
     ),
   },
   {
-    title: "Peoples",
-    path: "/peoples",
+    title: "People",
+    path: "/people",
     icon: (
       <img src="https://icons.iconarchive.com/icons/jonathan-rey/star-wars-characters/256/Stormtrooper-01-icon.png" />
     ),

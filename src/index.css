@@ -4,12 +4,33 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg');
+  background-image: url('https://wallpaperaccess.com/full/1801954.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @font-face {
   font-family: 'Starjhol';
   src: local('Starjhol'), url(./assets/fonts/Starjhol.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Starjedi';
+  src: local('Starjedi'), url(./assets/fonts/Starjedi.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Stjedise';
+  src: local('Stjedise'), url(./assets/fonts/Stjedise.ttf) format('truetype');
 }
 
 code {
