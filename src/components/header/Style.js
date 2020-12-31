@@ -6,6 +6,10 @@ export const HeaderBackground = styled.div`
   display: flex;
   align-items: center;
   place-content: space-between;
+
+  @media (max-width: 767px) {
+    margin-bottom: 50px;
+  }
 `;
 
 export const HeaderLeft = styled.div`

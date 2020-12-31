@@ -13,11 +13,9 @@ export const FooterLeft = styled.div`
   margin-left: 20px;
   display: flex;
 
-  span {
+  img {
     width: 160px;
     height: 120px;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Dueling_lightsabers.svg/1200px-Dueling_lightsabers.svg.png");
-    background-size: cover;
   }
 `;
 
@@ -29,5 +27,9 @@ export const FooterRight = styled.div`
   p {
     font-size: 15px;
     color: #ffde06;
+
+    a {
+      color: #ffde06;
+    }
   }
 `;

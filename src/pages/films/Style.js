@@ -8,7 +8,7 @@ export const FilmBackground = styled.div`
 
 export const FilmList = styled.li`
   width: 350px;
-  height: 464px;
+  height: 560px;
   margin: 30px;
   border-radius: 15px;
   background-color: #000000d1;
@@ -28,9 +28,10 @@ export const FilmListTitle = styled.div`
   color: #04ff18;
 `;
 
-export const FilmListDescription = styled.h5`
-  margin: 25px;
-  font-family: inherit;
+export const FilmListImage = styled.img`
+  height: 400px;
+  margin: 20px;
+  border-radius: 10px;
 `;
 
 export const FilmListButton = styled.button`

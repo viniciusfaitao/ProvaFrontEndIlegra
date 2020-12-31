@@ -1,10 +1,35 @@
-# Getting Started with Create React App
+# Prova Front End Ilegra
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```
+Criar uma aplicação web que utilize os endpoints disponibilizados pela API  https://swapi.dev.
+Serão avaliados critérios como organização do código, padrões e boas práticas, UI e UX  e maturidade para ir para produção.
+```
 
-## Available Scripts
+Requisitos mínimos:
+• Testes unitários. :heavy_check_mark:
+• Versionamento em repositório público (Github, Gitlab). :heavy_check_mark:
+• Instruções para rodar o projeto (README). :heavy_check_mark:
+• Componentes reutilizáveis. :heavy_check_mark:
+• Aplicação responsiva. :heavy_check_mark:
 
-In the project directory, you can run:
+Diferenciais:
+• Testes e2e. :x:
+• Deploy da aplicação. :heavy_check_mark:
+• BFF (REST ou GraphQL). :x:
+• Animações. :heavy_check_mark:
+• Acessibilidade. :x:
+
+## acessível pelo link
+
+```
+https://starwars-wiki.firebaseapp.com/home
+```
+
+ou
+
+```
+https://starwars-wiki.web.app/home
+```
 
 ### `yarn start`
 

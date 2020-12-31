@@ -28,6 +28,12 @@ export const FilmDescriptionHead = styled.div`
   flex-direction: column;
   justify-content: center;
 
+  img {
+    height: 415px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+
   p {
     color: #42d0fb;
     font-size: 35px;

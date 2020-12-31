@@ -27,7 +27,7 @@ export const VehicleDescriptionHead = styled.div`
   justify-content: center;
 
   img {
-    width: 400px;
+    width: 325px;
     height: 300px;
     margin: 20px;
     border-radius: 10px;

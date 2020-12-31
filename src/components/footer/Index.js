@@ -5,16 +5,20 @@ import {
   FooterCenter,
   FooterRight,
 } from "./Style";
+import lightsabers from "../../assets/images/lightsabers.png";
 
 export const Footer = () => {
   return (
     <FooterBackground>
       <FooterLeft>
-        <span />
+        <img alt={lightsabers} src={lightsabers} />
       </FooterLeft>
       <FooterCenter></FooterCenter>
       <FooterRight>
-        <p>Created by Vinicius Faitão</p>
+        <p>
+          Created by{" "}
+          <a href="https://github.com/viniciusfaitao/">Vinicius Faitão</a>
+        </p>
       </FooterRight>
     </FooterBackground>
   );

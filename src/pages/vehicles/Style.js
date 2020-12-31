@@ -7,8 +7,8 @@ export const VehicleBackground = styled.div`
 `;
 
 export const VehicleList = styled.li`
-  width: 425px;
-  height: 570px;
+  width: 385px;
+  height: 525px;
   margin: 30px;
   border-radius: 15px;
   background-color: #000000d1;
@@ -17,6 +17,7 @@ export const VehicleList = styled.li`
   display: flex;
   flex-direction: column;
   place-content: center;
+  align-items: center;
   text-align: center;
 `;
 
@@ -29,11 +30,10 @@ export const VehicleListTitle = styled.div`
 `;
 
 export const VehicleListImage = styled.img`
-  width: 385px;
-  height: 415px;
+  width: 360px;
+  height: 350px;
   margin: 20px;
   border-radius: 10px;
-  background-color: #fff;
 `;
 
 export const VehicleListButton = styled.button`

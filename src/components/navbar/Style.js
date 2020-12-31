@@ -1,11 +1,16 @@
 import styled from "styled-components";
 
-export const NavbarBackground = styled.nav`
+export const NavbarBackground = styled.div`
   height: 80px;
   margin-bottom: 50px;
   display: flex;
   align-items: center;
   place-content: space-between;
+
+  nav {
+    position: fixed;
+    z-index: 1;
+  }
 
   span {
     margin-left: 16px;
@@ -18,6 +23,7 @@ export const NavbarBackground = styled.nav`
     bottom: 0;
     z-index: 1;
     background: #ffde06;
+    position: fixed;
   }
 
   button {

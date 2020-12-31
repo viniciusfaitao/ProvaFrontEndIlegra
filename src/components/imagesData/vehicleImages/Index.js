@@ -1,50 +1,53 @@
+import AtAt from "../../../assets/images/vehicles/AtAt.jpg";
+import AtSt from "../../../assets/images/vehicles/AtSt.jpg";
+import sailBarge from "../../../assets/images/vehicles/sailBarge.jpg";
+import sandcrawler from "../../../assets/images/vehicles/sandcrawler.png";
+import snowSpeeder from "../../../assets/images/vehicles/snowSpeeder.jpg";
+import stormIVTwinPodCloudCar from "../../../assets/images/vehicles/stormIVTwinPodCloudCar.png";
+import t16Skyhopper from "../../../assets/images/vehicles/t16Skyhopper.png";
+import tieBomber from "../../../assets/images/vehicles/tieBomber.png";
+import tielnStarfighter from "../../../assets/images/vehicles/tielnStarfighter.jpg";
+import x34Landspeeder from "../../../assets/images/vehicles/x34Landspeeder.jpg";
+
 export const VehicleImagesData = [
   {
     name: "Sand Crawler",
-    image:
-      "https://i.pinimg.com/736x/ef/bb/89/efbb897d10ab140fa59c2c26ad32405f.jpg",
+    image: sandcrawler,
   },
   {
     name: "T-16 skyhopper",
-    image:
-      "https://static.wikia.nocookie.net/headhuntersholosuite/images/1/1e/T-16_Skyhopper.png/revision/latest/scale-to-width-down/225?cb=20170426164026",
+    image: t16Skyhopper,
   },
   {
     name: "X-34 landspeeder",
-    image:
-      "https://bbts1.azureedge.net/images/p/full/2017/08/84f3b08c-6980-464d-b773-d9fa5730d9d1.jpg",
+    image: x34Landspeeder,
   },
   {
     name: "TIE/LN starfighter",
-    image:
-      "https://pm1.narvii.com/6332/c79b41af19811543961914137cbf62621fff7bcc_00.jpg",
+    image: tielnStarfighter,
   },
   {
     name: "Snowspeeder",
-    image: "https://tedlindsey.com/wp-content/uploads/2018/06/IMG_1269-2.jpg",
+    image: snowSpeeder,
   },
   {
     name: "TIE bomber",
-    image:
-      "https://vignette.wikia.nocookie.net/vsbattles/images/6/62/TIE_bomber_02.png/revision/latest?cb=20171018160301",
+    image: tieBomber,
   },
   {
     name: "AT-AT",
-    image:
-      "https://static.turbosquid.com/Preview/2015/12/14__13_18_24/top_front_newLighting.jpgd34cc665-a0fc-45f9-8807-af04dc25dc2cOriginal.jpg",
+    image: AtAt,
   },
   {
     name: "AT-ST",
-    image:
-      "https://static.wikia.nocookie.net/starwars/images/7/75/AtSt.jpg/revision/latest/scale-to-width-down/340?cb=20141023214154&path-prefix=it",
+    image: AtSt,
   },
   {
     name: "Storm IV Twin-Pod cloud car",
-    image:
-      "https://static.wikia.nocookie.net/starwars/images/5/51/Cloud_Car_NEGVV.png/revision/latest?cb=20170410043421",
+    image: stormIVTwinPodCloudCar,
   },
   {
     name: "Sail barge",
-    image: "https://i.imgur.com/C9RC4gg.png",
+    image: sailBarge,
   },
 ];

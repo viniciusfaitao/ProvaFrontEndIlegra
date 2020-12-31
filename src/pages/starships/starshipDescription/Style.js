@@ -16,6 +16,7 @@ export const StarshipDescriptionBox = styled.div`
   align-items: center;
   text-align: center;
   flex-direction: column;
+  overflow-wrap: anywhere;
 `;
 
 export const StarshipDescriptionHead = styled.div`
@@ -27,7 +28,7 @@ export const StarshipDescriptionHead = styled.div`
   justify-content: center;
 
   img {
-    width: 400px;
+    width: 325px;
     height: 300px;
     margin: 20px;
     border-radius: 10px;

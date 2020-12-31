@@ -7,7 +7,7 @@ export const StarshipBackground = styled.div`
 `;
 
 export const StarshipList = styled.li`
-  width: 425px;
+  width: 370px;
   height: 450px;
   margin: 30px;
   border-radius: 15px;
@@ -29,7 +29,7 @@ export const StarshipListTitle = styled.div`
 `;
 
 export const StarshipListImage = styled.img`
-  width: 385px;
+  width: 325px;
   height: 275px;
   margin: 20px;
   border-radius: 10px;
