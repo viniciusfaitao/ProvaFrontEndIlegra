@@ -19,8 +19,10 @@ Diferenciais: <br/><br/>
 • Animações. :heavy_check_mark: <br/>
 • Acessibilidade. :x: <br/>
 
-## Descrição do projeto
+Linguagem utilizada: <br/><br/>
+• React :heavy_check_mark:
 
+## Descrição do projeto
 
 Nesta aplicação utilizamos a API SWAPI para criar uma wikipédia sobre o conteudo de forma descritiva de cada componente do mundo StarWars.
 
