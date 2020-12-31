@@ -5,19 +5,19 @@ Criar uma aplicação web que utilize os endpoints disponibilizados pela API  ht
 Serão avaliados critérios como organização do código, padrões e boas práticas, UI e UX  e maturidade para ir para produção.
 ```
 
-Requisitos mínimos:
-• Testes unitários. :heavy_check_mark: \n
-• Versionamento em repositório público (Github, Gitlab). :heavy_check_mark:
-• Instruções para rodar o projeto (README). :heavy_check_mark:
-• Componentes reutilizáveis. :heavy_check_mark:
-• Aplicação responsiva. :heavy_check_mark:
+Requisitos mínimos: <br/>
+• Testes unitários. :heavy_check_mark: <br/>
+• Versionamento em repositório público (Github, Gitlab). :heavy_check_mark: <br/>
+• Instruções para rodar o projeto (README). :heavy_check_mark: <br/>
+• Componentes reutilizáveis. :heavy_check_mark: <br/>
+• Aplicação responsiva. :heavy_check_mark: <br/>
 
-Diferenciais:
-• Testes e2e. :x:
-• Deploy da aplicação. :heavy_check_mark:
-• BFF (REST ou GraphQL). :x:
-• Animações. :heavy_check_mark:
-• Acessibilidade. :x:
+Diferenciais: <br/>
+• Testes e2e. :x: <br/>
+• Deploy da aplicação. :heavy_check_mark: <br/>
+• BFF (REST ou GraphQL). :x: <br/>
+• Animações. :heavy_check_mark: <br/>
+• Acessibilidade. :x: <br/>
 
 ## acessível pelo link
 
