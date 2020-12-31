@@ -52,6 +52,7 @@ export const FilmDescriptionBody = styled.div`
   justify-content: center;
   text-align: start;
   align-items: start;
+  flex-flow: wrap;
 
   h3 {
     color: #fff;

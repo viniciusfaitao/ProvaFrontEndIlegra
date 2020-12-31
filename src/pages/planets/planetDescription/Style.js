@@ -48,6 +48,7 @@ export const PlanetDescriptionBody = styled.div`
   text-align: center;
   flex-flow: wrap;
   justify-content: center;
+  flex-flow: wrap;
 
   div {
     margin: 25px;

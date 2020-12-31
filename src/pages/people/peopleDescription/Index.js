@@ -10,10 +10,14 @@ import {
 } from "./Style";
 import { PeopleImagesData } from "../../../components/imagesData/peopleImages/Index";
 import { PeopleContext } from "../../../contexts/peopleContext/Index";
+import { PlanetContext } from "../../../contexts/planetContext/Index";
+import { FilmContext } from "../../../contexts/filmContext/Index";
 import { LoadingPage } from "../../../components/loadingPage/Index";
 
 export const PeopleDescription = () => {
   const { people } = useContext(PeopleContext);
+  const { planets } = useContext(PlanetContext);
+  const { films } = useContext(FilmContext);
   const { name } = useParams();
 
   return (
@@ -62,6 +66,14 @@ export const PeopleDescription = () => {
                 <div>
                   Gender
                   <h3>{people.gender}</h3>
+                </div>
+                <div>
+                  Homeworld
+                  <h3>
+                    {planets
+                      .filter((planet) => planet.url === people.homeworld)
+                      .map((planet) => planet.name)}
+                  </h3>
                 </div>
               </PeopleDescriptionBody>
               <PeopleDescriptionFooter>

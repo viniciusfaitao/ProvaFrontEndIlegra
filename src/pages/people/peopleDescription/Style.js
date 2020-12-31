@@ -52,6 +52,7 @@ export const PeopleDescriptionBody = styled.div`
   color: #42d0fb;
   display: flex;
   text-align: center;
+  flex-flow: wrap;
 
   div {
     margin: 25px;
