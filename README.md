@@ -21,11 +21,11 @@ Diferenciais: <br/><br/>
 
 ## Acessível pelo link
 
-<a href="https://starwars-wiki.firebaseapp.com/home"/>
+<a>https://starwars-wiki.firebaseapp.com/home</a>
   
 ou
 
-<a href="https://starwars-wiki.web.app/home"/>
+<a>https://starwars-wiki.web.app/home</a>
 
 ## Instalações e uso
 
