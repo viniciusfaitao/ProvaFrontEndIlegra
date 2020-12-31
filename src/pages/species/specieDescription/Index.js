@@ -10,10 +10,12 @@ import {
 } from "./Style";
 import { SpecieImagesData } from "../../../components/imagesData/specieImages/Index";
 import { SpecieContext } from "../../../contexts/specieContext/Index";
+import { PlanetContext } from "../../../contexts/planetContext/Index";
 import { LoadingPage } from "../../../components/loadingPage/Index";
 
 export const SpecieDescription = () => {
   const { species } = useContext(SpecieContext);
+  const { planets } = useContext(PlanetContext);
   const { name } = useParams();
 
   return (
@@ -65,7 +67,11 @@ export const SpecieDescription = () => {
                 </div>
                 <div>
                   Homeworld
-                  <h3>{specie.homeworld}</h3>
+                  <h3>
+                    {planets
+                      .filter((planet) => planet.url === specie.homeworld)
+                      .map((planet) => planet.name)}
+                  </h3>
                 </div>
                 <div>
                   Language
@@ -81,7 +87,7 @@ export const SpecieDescription = () => {
                     duration: 2,
                     ease: "easeInOut",
                     times: [0, 0.2, 0.5, 0.8, 1],
-                    loop: Infinity,
+                    repeat: Infinity,
                     repeatDelay: 1,
                   }}
                 >

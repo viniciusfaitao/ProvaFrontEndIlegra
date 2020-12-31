@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { HomeBackground, HomeList } from "./Style";
 import { NavbarMenu } from "../../components/navbar/navbarMenu/Index";
+import { LoadingPage } from "../../components/loadingPage/Index";
 
 export const Home = () => {
   return (
@@ -20,7 +21,7 @@ export const Home = () => {
               restDelta: 2,
             }}
           >
-            <NavbarMenu />
+            {NavbarMenu ? <NavbarMenu /> : <LoadingPage />}
           </motion.div>
         </HomeList>
       </HomeBackground>
