@@ -52,3 +52,7 @@ Buildar aplicação
 
 ### `npm run build`
 
+Deployar aplicação
+
+### `firebase deploy`
+
