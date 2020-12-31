@@ -30,7 +30,7 @@ export const VehicleListTitle = styled.div`
 `;
 
 export const VehicleListImage = styled.img`
-  width: 360px;
+  width: 340px;
   height: 350px;
   margin: 20px;
   border-radius: 10px;

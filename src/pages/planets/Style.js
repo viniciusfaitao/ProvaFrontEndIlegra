@@ -8,7 +8,7 @@ export const PlanetBackground = styled.div`
 
 export const PlanetList = styled.li`
   width: 350px;
-  height: 450px;
+  height: 460px;
   margin: 30px;
   border-radius: 15px;
   background-color: #000000d1;
@@ -17,6 +17,7 @@ export const PlanetList = styled.li`
   display: flex;
   flex-direction: column;
   place-content: center;
+  align-items: center;
   text-align: center;
 `;
 
@@ -29,7 +30,8 @@ export const PlanetListTitle = styled.div`
 `;
 
 export const PlanetListImage = styled.img`
-  height: 275px;
+  width: 300px;
+  height: 300px;
   margin: 20px;
   border-radius: 10px;
 `;

@@ -7,7 +7,7 @@ export const SpecieBackground = styled.div`
 `;
 
 export const SpecieList = styled.li`
-  width: 350px;
+  width: 390px;
   height: 520px;
   margin: 30px;
   border-radius: 15px;
@@ -29,6 +29,7 @@ export const SpecieListTitle = styled.div`
 `;
 
 export const SpecieListImage = styled.img`
+  width: 350px;
   height: 355px;
   margin: 20px;
   border-radius: 10px;

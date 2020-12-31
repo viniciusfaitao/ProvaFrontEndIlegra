@@ -17,6 +17,10 @@ export const PeopleDescriptionBox = styled.div`
   text-align: center;
   flex-flow: wrap;
   flex-direction: column;
+
+  @media (max-width: 767px) {
+    width: 370px;
+  }
 `;
 
 export const PeopleDescriptionHead = styled.div`
@@ -28,7 +32,8 @@ export const PeopleDescriptionHead = styled.div`
   justify-content: center;
 
   img {
-    height: 200px;
+    width: 310px;
+    height: 230px;
     margin: 20px;
     border-radius: 10px;
   }
@@ -61,6 +66,7 @@ export const PeopleDescriptionBody = styled.div`
 
   @media (max-width: 767px) {
     flex-direction: column;
+    overflow-wrap: anywhere;
   }
 `;
 

@@ -3,13 +3,13 @@ import styled from "styled-components";
 export const LoadingPageBackground = styled.div`
   height: 340px;
   background-color: #000;
-  box-shadow: 0 0 20px #04ff18;
+  box-shadow: 0 0 20px #42d0fb;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
 
   @media (max-width: 767px) {
-    width: 400px;
+    width: 365px;
   }
 `;
 
@@ -20,7 +20,7 @@ export const LoadingPageImage = styled.img`
   position: absolute;
 
   @media (max-width: 767px) {
-    width: 400px;
+    width: 365px;
   }
 `;
 

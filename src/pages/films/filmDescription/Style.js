@@ -29,7 +29,8 @@ export const FilmDescriptionHead = styled.div`
   justify-content: center;
 
   img {
-    height: 415px;
+    width: 310px;
+    height: 400px;
     margin: 20px;
     border-radius: 10px;
   }

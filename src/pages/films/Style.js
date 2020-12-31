@@ -6,7 +6,7 @@ export const FilmBackground = styled.div`
   flex-flow: wrap;
 `;
 
-export const FilmList = styled.li`
+export const FilmList = styled.div`
   width: 350px;
   height: 560px;
   margin: 30px;
@@ -29,6 +29,7 @@ export const FilmListTitle = styled.div`
 `;
 
 export const FilmListImage = styled.img`
+  width: 310px;
   height: 400px;
   margin: 20px;
   border-radius: 10px;

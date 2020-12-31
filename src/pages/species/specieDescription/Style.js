@@ -27,7 +27,8 @@ export const SpecieDescriptionHead = styled.div`
   justify-content: center;
 
   img {
-    height: 275px;
+    width: 350px;
+    height: 355px;
     margin: 20px;
     border-radius: 10px;
   }
@@ -62,6 +63,7 @@ export const SpecieDescriptionBody = styled.div`
 
   @media (max-width: 767px) {
     flex-direction: column;
+    overflow-wrap: anywhere;
   }
 `;
 

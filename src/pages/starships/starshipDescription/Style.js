@@ -29,7 +29,7 @@ export const StarshipDescriptionHead = styled.div`
 
   img {
     width: 325px;
-    height: 300px;
+    height: 275px;
     margin: 20px;
     border-radius: 10px;
   }

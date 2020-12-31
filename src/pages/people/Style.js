@@ -29,6 +29,7 @@ export const PeopleListTitle = styled.div`
 `;
 
 export const PeopleListImage = styled.img`
+  width: 310px;
   height: 230px;
   margin: 20px;
   border-radius: 10px;

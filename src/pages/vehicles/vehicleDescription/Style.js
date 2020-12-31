@@ -27,11 +27,10 @@ export const VehicleDescriptionHead = styled.div`
   justify-content: center;
 
   img {
-    width: 325px;
-    height: 300px;
+    width: 340px;
+    height: 350px;
     margin: 20px;
     border-radius: 10px;
-    background-color: #fff;
   }
 
   p {

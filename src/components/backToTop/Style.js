@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const ScrollTop = styled.div`
-  width: 100%;
+  width: 99%;
   height: 0px;
   position: fixed;
-  bottom: 85px;
+  bottom: 175px;
   z-index: 1000;
-  opacity: 0.5;
+  opacity: 0.75;
   color: #fff;
   cursor: pointer;
   animation: fadeIn 0.3s;
@@ -18,7 +18,7 @@ export const ScrollTop = styled.div`
     opacity: 1;
   }
 
-  svg {
+  img {
     width: 85px;
     height: 75px;
   }
