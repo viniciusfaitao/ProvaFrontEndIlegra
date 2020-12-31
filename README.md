@@ -2,7 +2,7 @@
 Nesta aplicação utilizamos a API SWAPI para criar uma wikipédia sobre o conteudo de forma descritiva de cada componente do mundo StarWars.
 
 ## Motivação do projeto<br/>
-Prova Front-End Ilegra<br/><br/>
+Prova Front-End Ilegra<br/>
 ```
 Criar uma aplicação web que utilize os endpoints disponibilizados pela API  https://swapi.dev.
 Serão avaliados critérios como organização do código, padrões e boas práticas, UI e UX  e maturidade para ir para produção.
