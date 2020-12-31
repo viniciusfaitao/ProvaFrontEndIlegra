@@ -19,7 +19,7 @@ export const Planets = () => {
     <PlanetBackground>
       {planets.length ? (
         planets.map((planet) => (
-          <PlanetList key={planet.name}>
+          <PlanetList>
             {PlanetImagesData.map((planetImage) =>
               planetImage.name === planet.name ? (
                 <PlanetListImage
