@@ -6,7 +6,7 @@ Serão avaliados critérios como organização do código, padrões e boas prát
 ```
 
 Requisitos mínimos:
-• Testes unitários. :heavy_check_mark:
+• Testes unitários. :heavy_check_mark: \n
 • Versionamento em repositório público (Github, Gitlab). :heavy_check_mark:
 • Instruções para rodar o projeto (README). :heavy_check_mark:
 • Componentes reutilizáveis. :heavy_check_mark:
