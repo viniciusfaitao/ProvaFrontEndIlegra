@@ -21,9 +21,8 @@ Diferenciais: <br/><br/>
 
 ## Descrição do projeto
 
-```
-Nesta aplicação utilizamos a API SWAPI para criar uma wikipédia sobre<br/>o conteudo de forma descritiva de cada componente do mundo StarWars.
-```
+
+Nesta aplicação utilizamos a API SWAPI para criar uma wikipédia sobre o conteudo de forma descritiva de cada componente do mundo StarWars.
 
 ## Acessível pelo link
 
